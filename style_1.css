@@ -1,0 +1,64 @@
+
+body { background:#000; color:#fff; }
+
+.landing-page * {
+  position: static !important;
+  left: auto !important;
+  top: auto !important;
+  width: auto !important;
+  height: auto !important;
+  transform: none !important;
+}
+
+.rectangle-1 { display: none !important; }
+
+.let-s-create-a-website-design {
+  font-family: "Montserrat-Bold","Montserrat",system-ui,-apple-system,sans-serif;
+  font-weight: 700;
+  font-size: clamp(32px, 6vw, 72px);
+  line-height: 1.15;
+  text-align: center;
+  margin: 0;
+}
+
+.experience-in-project-management-an-website-development-looking-to-get-in-to-data-science {
+  font-family: "Montserrat-Bold","Montserrat",system-ui,-apple-system,sans-serif;
+  font-weight: 700;
+  font-size: clamp(16px, 2.2vw, 24px);
+  line-height: 1.4;
+  text-align: center;
+  margin-top: 12px;
+  max-width: 60ch;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.95;
+}
+
+.btn-success {
+  background-color: #00573E;
+  border-color: #00573E;
+  font-family: "Montserrat-Bold","Montserrat",system-ui,-apple-system,sans-serif;
+  font-weight: 700;
+}
+.btn-success:hover,
+.btn-success:focus {
+  background-color: #004732;
+  border-color: #004732;
+}
+.btn.get-started { color: #fff !important; }
+
+.noah-dolnick-university-of-maryland-fall-2025 {
+  position: static !important;
+  text-align: center;
+  font-family: "Montserrat-Regular","Montserrat",system-ui,-apple-system,sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #bbb;
+  margin-top: 2rem;
+}
+
+.landing-page {
+  background: #000000;
+  height: auto !important;
+  overflow: visible !important;
+}

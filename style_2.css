@@ -1,0 +1,93 @@
+
+/* Page theme */
+html, body {
+  background: #000 !important;
+  color: #fff;
+  margin: 0;
+}
+
+/* Kill white backgrounds anywhere */
+.about,
+.about .container,
+.about .row,
+.about [class^="col-"] {
+  background: transparent !important;
+}
+
+/* Let the grid control layout (neutralize Figma export) */
+.about {
+  height: auto !important;
+  position: static !important;
+  overflow: visible !important;
+}
+.about * {
+  position: static !important;
+  left: auto !important;
+  top: auto !important;
+  width: auto !important;
+  height: auto !important;
+  transform: none !important;
+  box-sizing: border-box;
+}
+
+/* Title */
+.budt-748-industry-practicum {
+  color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
+  opacity: 1 !important;
+  font-family: "Montserrat-Bold","Montserrat",system-ui,-apple-system,sans-serif;
+  font-weight: 700;
+  font-size: clamp(24px, 3.4vw, 32px);
+  line-height: 1.2;
+  text-align: left;
+  margin: 0 0 .75rem 0;
+}
+
+/* Left meta block (Semester / Professor / TAs) */
+.frame-3 { display: block; width: auto; margin: 0; }
+.semester-details-fall-2025,
+.professor-paul-t-shapiro,
+.teaching-assistants-abhi-gupta-samiha-meah-zam-mozumder {
+  color: #fff;
+  font-family: "Inter-Regular","Inter",system-ui,-apple-system,sans-serif;
+  font-weight: 400;
+  font-size: clamp(16px, 2.2vw, 20px);
+  line-height: 1.4;
+  margin-bottom: .5rem;
+}
+.semester-details-fall-2025-span,
+.professor-paul-t-shapiro-span,
+.teaching-assistants-abhi-gupta-samiha-meah-zam-mozumder-span {
+  font-family: "Inter-Bold","Inter",system-ui,-apple-system,sans-serif;
+  font-weight: 700;
+}
+
+/* Right column paragraph */
+.budt-748-is-the-capstone-course-for-ms-information-systems-is-majors-where-students-apply-their-knowledge-to-develop-real-world-solutions-for-business-clients-through-a-complete-development-process-students-design-and-implement-functional-prototypes-that-solve-practical-business-challenges-preparing-them-for-careers-in-technology-and-consulting {
+  color: #fff;
+  font-family: "Inter-Regular","Inter",system-ui,-apple-system,sans-serif;
+  font-weight: 400;
+  font-size: clamp(16px, 2.1vw, 20px);
+  line-height: 1.6;
+  text-align: left;
+  margin: .5rem 0 0 0;
+  max-width: 70ch;
+}
+
+/* Footer copyright */
+.noah-dolnick-university-of-maryland-fall-2025,
+.noah-dolnick-university-of-maryland-fall-2025 *,
+.noah-dolnick-university-of-maryland-fall-2025 a {
+  text-align: center !important;
+  font-family: "Montserrat-Regular","Montserrat",system-ui,-apple-system,sans-serif;
+  font-size: .875rem;
+  font-weight: 400;
+  color: #fff !important;
+  -webkit-text-fill-color: #fff !important;
+  opacity: 1 !important;
+  text-decoration: none;
+  margin-top: 2rem;
+}
+
+/* Hide any leftover Figma header bits */
+.frame-2, .frame-1, .home, .about2, .contact, .noah-dolnick { display: none !important; }
